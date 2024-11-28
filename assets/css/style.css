@@ -6,9 +6,9 @@ h1{
 }
   #presentation {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: none;
+    justify-content: center;
     margin-top: 5%;
     padding:0%;
     width: 100%;
@@ -23,7 +23,7 @@ h1{
     background-color: #2d64ac;
     padding: 20px;
     margin: 10px;
-    width: 40%;
+    width: 75%;
 
   }
   /* Photo + badge */
@@ -69,4 +69,15 @@ h1{
     display: flex;
     color: #000000;
     justify-content: center;
+  }
+  @media screen and(min-width:600px) {
+      #presentation {
+        flex-direction: row;
+        justify-content: none;
+      }
+    .card{
+        width: 40%;
+      }
+
+    
   }
