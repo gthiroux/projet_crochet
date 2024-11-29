@@ -70,7 +70,7 @@ h1{
     color: #000000;
     justify-content: center;
   }
-  @media screen and(min-width:600px) {
+  @media screen and ( min-width : 600px ) {
       #presentation {
         flex-direction: row;
         justify-content: none;
